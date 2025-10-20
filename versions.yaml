@@ -16,9 +16,9 @@ installer:
   download_url: "https://github.com/brenoperucchi/DividendArbitrage/releases/latest/download/DividendEAInstaller-v1.2.0.exe"
 
 ea:
-  version: "1.262"
+  version: "1.263"
   file: "DividendArbitrageEA.ex5"
-  release_date: "2025-10-19"
+  release_date: "2025-10-20"
   repository: "brenoperucchi/DividendArbitrage"
   download_url: "https://github.com/brenoperucchi/DividendArbitrage/releases/latest/download/DividendArbitrageEA.ex5"
   description: "Professional dividend arbitrage trading Expert Advisor"

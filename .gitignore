@@ -27,6 +27,9 @@
 !*.txt
 !LICENSE
 
+# Except CHANGELOG (excluded from repo)
+EA/CHANGELOG.md
+
 # ====================
 # Block Everything Else
 # ====================
