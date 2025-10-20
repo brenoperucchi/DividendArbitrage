@@ -1,0 +1,21 @@
+# Dividend Arbitrage - Version Information
+# This file tracks versions for both the EA and Installer
+
+installer:
+  version: "1.1.0"
+  release_date: "2025-10-19"
+  description: "Auto-installer and updater for DividendArbitrage EA"
+  features:
+    - "Auto-detect MT5 installations"
+    - "One-click installation and updates"
+    - "GitHub integration for latest releases"
+    - "Complete diagnostic logging"
+  download_url: "https://github.com/brenoperucchi/DividendArbitrage/releases/latest/download/DividendEAInstaller-v1.1.0.exe"
+
+ea:
+  version: "1.262"
+  file: "DividendArbitrageEA.ex5"
+  release_date: "2025-10-19"
+  repository: "brenoperucchi/DividendArbitrage"
+  download_url: "https://github.com/brenoperucchi/DividendArbitrage/releases/latest/download/DividendArbitrageEA.ex5"
+  description: "Professional dividend arbitrage trading Expert Advisor"

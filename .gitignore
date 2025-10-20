@@ -1,0 +1,79 @@
+# ===========================================
+# DividendArbitrage - Binaries Only Repository
+# ===========================================
+# This repository contains ONLY compiled binaries
+# Source code is NOT shared
+
+# ====================
+# Allowed Files (EA)
+# ====================
+# Allow compiled EA files
+!EA/*.ex5
+!EA/*.dll
+
+# ====================
+# Allowed Files (Installer)
+# ====================
+# Allow compiled installer
+!Installer/*.exe
+!Installer/*.dll
+!Installer/*.json
+!Installer/*.yaml
+
+# ====================
+# Documentation
+# ====================
+!*.md
+!*.txt
+!LICENSE
+
+# ====================
+# Block Everything Else
+# ====================
+
+# Windows
+*.exe.config
+Thumbs.db
+desktop.ini
+
+# Source code - C#/VB.NET
+*.cs
+*.csproj
+*.sln
+*.suo
+*.user
+*.cache
+*.vs/
+bin/
+obj/
+packages/
+*.DotSettings*
+
+# Source code - MQL5
+*.mq5
+*.mqh
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build artifacts (except final binaries)
+*.pdb
+*.ilk
+*.obj
+*.log
+*.tlog
+*.tmp
+*.bak
+*.old
+
+# Dependencies
+node_modules/
+vendor/
+
+# Logs
+logs/
+*.log
