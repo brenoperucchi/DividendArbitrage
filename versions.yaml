@@ -2,15 +2,18 @@
 # This file tracks versions for both the EA and Installer
 
 installer:
-  version: "1.1.0"
-  release_date: "2025-10-19"
+  version: "1.2.0"
+  release_date: "2025-10-20"
   description: "Auto-installer and updater for DividendArbitrage EA"
   features:
     - "Auto-detect MT5 installations"
     - "One-click installation and updates"
     - "GitHub integration for latest releases"
     - "Complete diagnostic logging"
-  download_url: "https://github.com/brenoperucchi/DividendArbitrage/releases/latest/download/DividendEAInstaller-v1.1.0.exe"
+    - "Smart file comparison (skip if identical)"
+    - "Subdirectory organization"
+    - "Persistent installation list"
+  download_url: "https://github.com/brenoperucchi/DividendArbitrage/releases/latest/download/DividendEAInstaller-v1.2.0.exe"
 
 ea:
   version: "1.262"
